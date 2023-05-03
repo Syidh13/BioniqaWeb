@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+
+/* ======== Container ======== */
+.cs-container {
+  @apply max-w-6xl mx-auto px-4 sm:px-12 lg:px-8 w-full;
+}
+
+/* ======== Padding ======== */
+.cs-py-section {
+  @apply py-8 md:py-20;
+}
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Outfit-Bold';
+    src: url('/layout/asset/font/Outfit-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'Outfit-ExtraLight';
+    src: url('/layout/asset/font/Outfit-ExtraLight.ttf');
+  }
+  @font-face {
+    font-family: 'Outfit-Medium';
+    src: url('/layout/asset/font/Outfit-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'Outfit-Regular';
+    src: url('/layout/asset/font/Outfit-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Outfit-SemiBold';
+    src: url('/layout/asset/font/Outfit-SemiBold.ttf');
+  }
+}

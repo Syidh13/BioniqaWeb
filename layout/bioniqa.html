@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body class=" bg-slate-50">
+    <!-- header -->
+    <div class="fixed z-10 order-10 w-full bg-white border-b">
+        <div class="flex justify-between max-w-5xl py-4 mx-auto my-auto">
+            <!-- logo -->
+            <img src="./asset/img/lg-bioniqa.svg" class="h-12 mx-auto md:mx-0">
+
+            <!-- button -->
+            <div class="hidden my-auto space-x-4 md:flex">
+                <!-- button home -->
+                <a href="#" class="flex justify-end px-4 py-2 ">
+                    <button class="text-base font-medium font-title text-dark hover:text-primary">Home</button>
+                </a>
+
+                <!-- button About -->
+                <a href="#about" class="flex justify-end px-4 py-2 ">
+                    <button class="text-base font-medium font-title text-dark hover:text-primary">About</button>
+                </a>
+
+                <!-- button Our Vision -->
+                <a href="#vision" class="flex justify-end px-4 py-2 ">
+                    <button class="text-base font-medium font-title text-dark hover:text-primary">Our Vision</button>
+                </a>
+
+                <!-- button Our Contact -->
+                <a href="#contact" class="flex justify-end px-4 py-2 ">
+                    <button class="text-base font-medium font-title text-dark hover:text-primary">Contact</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End header -->
+
+    <!-- Section Hero -->
+    <div>
+        <!-- <img src="./asset/img/img-hero.jpg" class="relative object-cover w-full h-screen blur-sm"> -->
+        <video autoplay muted loop id="myVideo" class="object-cover w-full h-screen aspect-video">
+            <source src="./asset/video/vd-hero.mp4" type="video/mp4">
+        </video>
+        <div class="absolute top-0 w-full h-screen mx-auto ">
+            <!-- text hero -->
+            <div class="flex h-screen bg-gradient-to-r from-green-500/60 to-green-700/60">
+                <div class="flex flex-col px-5 mx-auto my-auto">
+                    <h1 class="max-w-5xl text-4xl font-bold text-center text-white md:text-8xl font-title ">
+                        We democratise clean air for every citizen
+                    </h1>
+                    <!-- button learn more -->
+                    <div class="pt-8 mx-auto">
+                        <a href="#vision">
+                            <button class="px-6 py-3 text-sm font-normal bg-white rounded-sm text-primary">LEARN
+                                MORE</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section What Happened Now? -->
+    <div class="px-5 bg-white py-14 md:py-20">
+        <!-- container -->
+        <div class="flex flex-col max-w-5xl mx-auto">
+            <!-- title -->
+            <div class="text-base font-normal uppercase text-primary font-title">
+                What is happening right now ?
+            </div>
+            <!-- grid -->
+            <div class="gap-10 py-2 md:grid md:grid-cols-2">
+
+                <!-- Grid top on mobile -->
+                <div class="block pb-5 md:hidden">
+                    <img src="./asset/img/img-problem.jpg">
+                </div>
+
+                <!-- grid left -->
+                <div>
+                    <div class="text-lg font-normal font-body text-slate-600">
+                        Since 2017, Jakarta's air quality has been the worst amongst big cities in the world. Based
+                        on
+                        the IQAir's, Jakarta's air quality index is hovering around 120-165 on average which is very
+                        unhealthy.
+                    </div>
+
+                    <div>
+                        <div class="text-xl font-semibold pt-7 font-title text-dark">The impact to economy and
+                            citizens
+                        </div>
+                        <!-- grid -->
+                        <div class="grid grid-cols-2 gap-4 pt-4 md:grid md:grid-cols-4">
+                            <!-- lifespan -->
+                            <div class="mx-auto">
+                                <img src="./asset/img/img-lifespan.png" class="w-20 mx-auto ">
+                                <h1 class="pt-4 text-base font-medium text-center md:text-sm font-title text-dark">
+                                    Cutting 2.3 Years Lifespan
+                                </h1>
+                            </div>
+
+                            <!-- Heart Disease -->
+                            <div class="mx-auto">
+                                <img src="./asset/img/img-heartdisease.png" class="w-20 mx-auto ">
+                                <h1 class="pt-4 text-base font-medium text-center md:text-sm font-title text-dark">
+                                    Heart Disease
+                                </h1>
+                            </div>
+
+                            <!-- Stroke -->
+                            <div class="mx-auto">
+                                <img src="./asset/img/img-stroke.png" class="w-20 mx-auto ">
+                                <h1 class="pt-4 text-base font-medium text-center md:text-sm font-title text-dark">
+                                    Stroke
+                                </h1>
+                            </div>
+
+                            <!-- Pulmonary Disease -->
+                            <div class="mx-auto">
+                                <img src="./asset/img/img-lungdisease.png" class="w-20 mx-auto ">
+                                <h1 class="pt-4 text-base font-medium text-center md:text-sm font-title text-dark">
+                                    Pulmonary Disease
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid Right dekstop -->
+                <div class="hidden md:block">
+                    <img src="./asset/img/img-problem.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Section What Happened Now? -->
+
+    <!-- Section Our Solution -->
+    <div class="h-screen px-5 bg-gradient-to-r from-teal-200 to-lime-200 ">
+        <!-- container -->
+        <div class="flex h-screen">
+            <div
+                class="flex flex-col px-5 mx-auto my-auto space-y-4 text-4xl font-bold text-center uppercase font-title text-slate-800 md:text-6xl">
+                <h1 class="text-3xl md:text-5xl"> Don't worry!</h1>
+                <h1>We Have a SOLUTION for YOU</h1>
+            </div>
+        </div>
+    </div>
+    <!-- END Section Our Solution -->
+
+    <!-- Section combine nature -->
+    <div class="px-5 bg-white py-14 md:py-20">
+        <!-- container -->
+        <!-- img -->
+        <div class="relative grid grid-cols-2">
+            <div>
+                <img src="./asset/img/img-combine-1.webp" class="object-cover w-full rounded-l-2xl h-52">
+            </div>
+            <div>
+                <img src="./asset/img/img-combine-2.webp" class="object-cover w-full h-52 rounded-r-2xl">
+            </div>
+
+            <!-- absolute -->
+            <div class="absolute top-0 w-full h-full bg-slate-800/80 rounded-2xl">
+                <div class="flex h-full ">
+                    <h1
+                        class="flex px-5 mx-auto my-auto text-2xl font-bold text-center text-white md:text-4xl md:max-w-2xl font-title">
+                        We combine nature with technology to produce
+                        more oxygen to our city with BioniQa</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- END Section combine nature -->
+
+    <!-- Section Here we are, the solution for you -->
+    <div class="px-5 py-14 md:py-20 scroll-mt-14" id="about">
+        <!-- container -->
+        <div class="flex flex-col max-w-5xl mx-auto">
+            <!-- title -->
+            <div class="text-base font-normal uppercase text-primary font-title">
+                Here we are, the solution for you
+            </div>
+            <!-- grid -->
+            <div class="gap-10 py-2 md:grid md:grid-cols-2">
+
+                <!-- Grid top on mobile -->
+                <img src="./asset/img/lg-bioniqa.svg" class="flex justify-center h-16 md:hidden">
+                <div class="block pt-4 pb-5 md:hidden ">
+                    <img
+                        src="./asset/img/Founder-_-CEO-Qlue-Rama-Raditya-(left)-and-Co---Founder-_-CTO-Qlue-Andre-Hutagalung.png">
+                </div>
+
+                <!-- grid left -->
+                <div>
+                    <!-- logo for desktop -->
+                    <div class="md:pt-10">
+                        <img src="./asset/img/lg-bioniqa.svg" class="hidden h-16 md:block">
+                    </div>
+                    <div class="pt-5 text-lg font-normal font-body text-slate-600">
+                        A biotechnology company hailing from Jakarta, Indonesia that was born with a vision to
+                        democratise clean air for every citizen.
+
+                        Our experienced co-founders have track records on providing great social impacts to the
+                        societies in their previous ventures, by also building a sustainable and profitable
+                        business.
+                    </div>
+                </div>
+
+                <!-- Grid Right dekstop -->
+                <div class="hidden md:block ">
+                    <img src="./asset/img/Founder-_-CEO-Qlue-Rama-Raditya-(left)-and-Co---Founder-_-CTO-Qlue-Andre-Hutagalung.png"
+                        class="flex mx-auto md:h-80">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Here we are, the solution for you -->
+
+    <!-- Section What is BioniQa? -->
+    <div class="px-5 bg-white py-14 md:py-20">
+        <!-- container -->
+        <div class="flex flex-col max-w-5xl mx-auto">
+            <!-- title for mobile -->
+            <div class="text-base font-normal uppercase text-primary font-title md:hidden">
+                What is BioniQa?
+            </div>
+            <!-- grid -->
+            <div class="gap-10 py-2 md:grid md:grid-cols-2">
+
+                <!-- Grid top on mobile -->
+                <div class="block pt-4 pb-5 md:hidden ">
+                    <img src="./asset/img/img-4.png">
+                </div>
+
+                <!-- Grid left dekstop -->
+                <div class="hidden md:block ">
+                    <img src="./asset/img/img-4.png" class="flex mx-auto md:h-80">
+                </div>
+
+                <!-- grid right -->
+                <div class="flex h-full">
+                    <div>
+                        <!-- title for desktop -->
+                        <div class="hidden text-base font-normal uppercase text-primary font-title md:block">
+                            What is BioniQa?
+                        </div>
+                        <!-- description -->
+                        <div class="pt-5 my-auto text-lg font-normal font-body text-slate-600">
+                            BioniQa is a photobioreactor device powered by IoT and AI that utilises natural resource
+                            such as
+                            of micro-algae to produce massive amounts of oxygen for the atmosphere.
+
+                            It releases oxygen converted from carbon dioxide that is equivalent to 50 medium trees.
+
+                            Per small BioniQa's device is able to convert a 100 meter radius of area from 120-150
+                            AQI to
+                            20-50 AQI
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END What is BioniQa? -->
+
+    <!-- Section BioniQa can be used in -->
+    <div class="px-5 bg-[#e8f5e9] py-14 md:py-20">
+        <!-- container -->
+        <div class="max-w-5xl mx-auto">
+            <!-- title -->
+            <h1 class="text-2xl font-bold text-center md:text-3xl font-title text-primary">BioniQa can be used in
+            </h1>
+
+            <!-- icon grid -->
+            <div class="grid grid-cols-2 gap-6 pt-5 md:grid-cols-6">
+                <!-- school -->
+                <div class="p-6 border border-[#a5d6a7] bg-white rounded-lg hover:shadow-xl transition-all">
+                    <img src="./asset/icon/graduation-cap.svg" class="h-10 mx-auto">
+                    <h1 class="pt-4 text-base font-medium text-center font-title text-slate-800">School</h1>
+                </div>
+                <!-- Ministries -->
+                <div class="p-6 border border-[#a5d6a7] bg-white rounded-lg hover:shadow-xl transition-all">
+                    <img src="./asset/icon/landmark.svg" class="h-10 mx-auto">
+                    <h1 class="pt-4 text-base font-medium text-center font-title text-slate-800">Ministries</h1>
+                </div>
+                <!-- Property -->
+                <div class="p-6 border border-[#a5d6a7] bg-white rounded-lg hover:shadow-xl transition-all">
+                    <img src="./asset/icon/house.svg" class="h-10 mx-auto">
+                    <h1 class="pt-4 text-base font-medium text-center font-title text-slate-800">Property</h1>
+                </div>
+                <!-- Municipalities -->
+                <div class="p-6 border border-[#a5d6a7] bg-white rounded-lg hover:shadow-xl transition-all">
+                    <img src="./asset/icon/buildings.svg" class="h-10 mx-auto">
+                    <h1 class="pt-4 text-base font-medium text-center font-title text-slate-800">Municipalities</h1>
+                </div>
+                <!-- Factories -->
+                <div class="p-6 border border-[#a5d6a7] bg-white rounded-lg hover:shadow-xl transition-all">
+                    <img src="./asset/icon/industry-windows.svg" class="h-10 mx-auto">
+                    <h1 class="pt-4 text-base font-medium text-center font-title text-slate-800">Factories</h1>
+                </div>
+                <!-- Public Transport -->
+                <div class="p-6 border border-[#a5d6a7] bg-white rounded-lg hover:shadow-xl transition-all">
+                    <img src="./asset/icon/bus.svg" class="h-10 mx-auto">
+                    <h1 class="pt-4 text-base font-medium text-center font-title text-slate-800">Public Transport
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- END BioniQa can be used in -->
+
+    <!-- Section our video -->
+    <div class="px-5 bg-white py-14 md:py-20 scroll-mt-14 md:scroll-mt-4" id="vision">
+        <!-- container -->
+        <div class="max-w-5xl mx-auto">
+            <!-- title -->
+            <h1 class="text-2xl font-bold text-center md:text-3xl font-title text-primary">Still curious,<br> see
+                our
+                video now
+            </h1>
+
+            <!-- video -->
+            <div class="flex pt-5 mx-auto aspect-video">
+                <iframe class="w-full h-full" src="./asset/video/vd-bioniqa.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+    <!-- END our video -->
+
+    <!-- Section Let's convert our air -->
+    <div class="bg-white ">
+        <div class="relative h-80">
+            <img src="./asset/img/img-hero.jpg" class="object-cover w-full h-80">
+            <!-- absolute -->
+            <div class="absolute top-0 w-full h-full bg-slate-900/30 ">
+                <div class="flex h-full">
+                    <h1
+                        class="max-w-4xl px-5 mx-auto my-auto text-2xl font-bold leading-tight text-center text-white md:text-6xl font-title">
+                        “Let's convert our air quality
+                        to the level of New Zealand's
+                        one “tree” at a time”
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- END Let's convert our air -->
+
+
+
+    <!-- Section Footer -->
+    <div class="bg-white border-t py-14 md:py-20" id="contact">
+        <div class="flex flex-col w-full mx-auto md:flex-row ">
+            <!-- logo -->
+            <div class="flex flex-col mx-auto ">
+                <img src="./asset/img/lg-bioniqa.svg" class="h-10">
+                <div class="pt-4 mx-auto md:mx-0">
+                    <small class="font-title text-slate-600">Powered by</small>
+                    <img src="./asset/img/lg-qlue.webp" class="h-10">
+                </div>
+            </div>
+
+            <div class="flex flex-col pt-5 mx-auto">
+                <!-- contact us -->
+                <h1 class="text-base text-center font-title text-slate-600 md:text-left">I'm interested</h1>
+
+                <!-- email (input the send email in here) -->
+                <div class="px-4 py-2 text-base text-center border rounded-md bg-primary font-title ">
+                    <a class="my-auto text-white" href="mailto: info@bioniqa.io">Contact us now</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- END Footer -->
+
+
+
+
+</body>
+
+</html>
