@@ -18,12 +18,12 @@
 <body>
 
     <!-- ================ Nav ================ -->
-    <nav class=" fixed w-full z-10" id="navbar">
+    <nav class=" fixed w-full z-20" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex-shrink-0 flex items-center">
                     <a href="./index.html" class="bg-white p-1 rounded-md">
-                        <img class="h-8 w-auto" src="./asset/img/lg-bioniqa.svg" alt="Logo">
+                        <img class="h-8 w-auto" src="./asset/img/lg-bioniqa.png" alt="Logo">
                     </a>
                 </div>
                 <!-- Menu For Desktop only -->
@@ -107,23 +107,32 @@
             <source src="./asset/video/background.mp4" type="video/mp4">
         </video>
         <div class="absolute top-0 w-full h-screen mx-auto ">
+
             <!-- text hero -->
-            <div class="flex h-screen bg-gradient-to-r from-green-500/60 to-green-700/60">
-                <div class="flex flex-col px-5 mx-auto my-auto space-y-4">
-                    <h1 class="max-w-5xl text-4xl font-titleBold text-center text-white md:text-8xl">
-                        Revolutionizing Carbon Capture
-                    </h1>
-                    <h1 class="max-w-5xl text-sm font-titleRegular text-center text-white md:text-xl">Transforming the
-                        future of sustainability through innovative algae-based technology</h1>
-                    <!-- button learn more -->
-                    <!-- <div class="pt-8 mx-auto">
+            <div class="absolute z-10 w-full">
+                <div class="flex h-screen">
+                    <div class="flex flex-col px-5 mx-auto my-auto space-y-4">
+                        <h1 class="max-w-5xl text-4xl font-titleBold text-center text-white md:text-8xl">
+                            Democratising Clean Air for Everyone
+                        </h1>
+                        <h1 class="max-w-5xl text-sm font-titleRegular text-center text-white md:text-xl">Transforming
+                            the
+                            future of sustainability through innovative algae-based technology</h1>
+                        <!-- button learn more -->
+                        <!-- <div class="pt-8 mx-auto">
                         <a href="#vision">
                             <button class="px-6 py-3 text-sm font-titleMedium bg-white rounded-sm text-primary">Discover
                                 Our Technology</button>
                         </a>
                     </div> -->
+                    </div>
                 </div>
             </div>
+            <!-- end Text hero -->
+
+            <!-- gradient -->
+            <div class="w-screen h-screen opacity-90 bg-gradient-to-br from-[#21C561] to-[#06B6D4]"></div>
+            <!-- end gradient -->
         </div>
     </section>
     <!-- ================ end Hero Section ================ -->
@@ -142,7 +151,9 @@
                 <div class="flex h-full">
                     <!-- title -->
                     <div class="md:space-y-4 space-y-2">
-                        <h1 class="font-titleBold md:text-3xl text-2xl text-dark">Our Mission</h1>
+                        <h1
+                            class="font-titleBold md:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-br from-[#21C561] to-[#06B6D4]">
+                            Our Mission</h1>
                         <h1
                             class="font-bodyLight my-auto text-slate-700 md:text-lg text-base break-words leading-relaxed">
                             At Bioniqa, we are on a mission to combat climate change and promote sustainable living
@@ -165,7 +176,9 @@
                 <div class="flex h-full">
                     <!-- title -->
                     <div class="md:space-y-4 space-y-2">
-                        <h1 class="font-titleBold md:text-3xl text-2xl text-dark">Our Technology</h1>
+                        <h1
+                            class="font-titleBold md:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-br from-[#21C561] to-[#06B6D4]">
+                            Our Technology</h1>
                         <h1
                             class="font-bodyLight my-auto text-slate-700 md:text-lg text-base break-words leading-relaxed">
                             Bioniqa
@@ -193,7 +206,9 @@
     <section class="cs-py-section flex justify-center">
         <div class="cs-container space-y-1">
             <!-- title -->
-            <h1 class="font-titleBold md:text-3xl text-center text-2xl text-dark">Latest News & Media</h1>
+            <h1
+                class="font-titleBold md:text-3xl text-center text-2xl text-transparent bg-clip-text bg-gradient-to-br from-[#21C561] to-[#06B6D4]">
+                Latest News & Media</h1>
             <h1 class="font-bodyRegular text-slate-600 text-base text-center">Stay up-to-date with the latest news,
                 media coverage,
                 and announcements from Bioniqa.
@@ -263,6 +278,20 @@
                     </div>
                 </a>
                 <!-- end card 4 -->
+
+                <!-- card 5 -->
+                <a href="https://www.linkedin.com/posts/bali-investment-club_bioniqa-bic-activity-7087016652453646336-dVdh"
+                    target="_blank">
+                    <div class="bg-white rounded-md w-full drop-shadow-md h-full">
+                        <img src="./asset/img/img-news-baliclub.jpg" alt=""
+                            class="w-full object-cover aspect-video rounded-t-md">
+                        <div class="p-6">
+                            <h1 class="font-titleRegular text-sm text-slate-400">Indonesia, 2023</h1>
+                            <h1 class="font-titleMedium text-xl  text-dark">Investment Opportunity in Bioniqa</h1>
+                        </div>
+                    </div>
+                </a>
+                <!-- end card 5 -->
 
             </div>
             <!-- end section card -->

@@ -34,4 +34,16 @@
     font-family: 'Outfit-SemiBold';
     src: url('/layout/asset/font/Outfit-SemiBold.ttf');
   }
+  @font-face {
+    font-family: 'PlusJakartaSans-Regular';
+    src: url('/layout/asset/font/PlusJakartaSans-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'PlusJakartaSans-ExtraLight';
+    src: url('/layout/asset/font/PlusJakartaSans-ExtraLight.ttf');
+  }
+  @font-face {
+    font-family: 'PlusJakartaSans-Medium';
+    src: url('/layout/asset/font/PlusJakartaSans-Medium.ttf');
+  }
 }

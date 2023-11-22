@@ -11,9 +11,9 @@ module.exports = {
         'titleMedium': ['Outfit-Medium'],
         'titleRegular': ['Outfit-Regular'],
         'titleSemibold': ['Outfit-Semibold'],
-        'bodyRegular': ['Outfit-Regular'],
-        'bodyMedium': ['Outfit-Medium'],
-        'bodyLight': ['Outfit-ExtraLight'],
+        'bodyRegular': ['PlusJakartaSans-Regular'],
+        'bodyMedium': ['PlusJakartaSans-Medium'],
+        'bodyLight': ['PlusJakartaSans-ExtraLight'],
       },
       colors: {
         'primary': "#4caf50",
